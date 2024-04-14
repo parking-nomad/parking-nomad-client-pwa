@@ -4,16 +4,12 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+button {
+  cursor: pointer;
 }
 body {
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  height: 100vh;
   background-color: #242424;
-}
-h1 {
-  font-size: 3.2em;
-  color: rgba(255, 255, 255, 0.87);
-  font-weight: bold;
 }
